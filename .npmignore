@@ -1,0 +1,7 @@
+/.gitignore
+/.npmignore
+/.travis.yml
+/.vscode
+/src
+/tests
+/webpack.config.js

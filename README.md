@@ -2,11 +2,11 @@
 Places delimiters between items in an array.
 Defaults to a comma-separated list with an Oxford comma.
 
-![package](https://img.shields.io/github/package-json/v/CharlesStover/delimiter.svg)
-![build](https://travis-ci.com/CharlesStover/delimiter.svg)
-![downloads](https://img.shields.io/npm/dt/delimiter.svg)
-![minified size](https://img.shields.io/bundlephobia/min/delimiter.svg)
-![minzipped size](https://img.shields.io/bundlephobia/minzip/delimiter.svg)
+[![package](https://img.shields.io/github/package-json/v/CharlesStover/delimiter.svg)](http://github.com/CharlesStover/delimiter/)
+[![build](https://travis-ci.com/CharlesStover/delimiter.svg)](https://travis-ci.com/CharlesStover/delimiter/)
+[![downloads](https://img.shields.io/npm/dt/delimiter.svg)](https://www.npmjs.com/package/delimiter)
+[![minified size](https://img.shields.io/bundlephobia/min/delimiter.svg)](https://www.npmjs.com/package/delimiter)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/delimiter.svg)](https://www.npmjs.com/package/delimiter)
 
 ## Install
 * `npm install delimiter --save` or

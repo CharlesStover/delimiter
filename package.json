@@ -1,8 +1,31 @@
 {
   "name": "delimiter",
-  "version": "1.0.0",
-  "author": "Charles Stover <npmjs@charlesstover.com>",
+  "version": "1.0.1",
+  "author": "Charles Stover <delimiter@charlesstover.com>",
+  "bugs": {
+    "email" : "delimiter@charlesstover.com",
+    "url" : "https://github.com/CharlesStover/delimiter/issues"
+  },
   "description": "Places delimiters between items in an array.",
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "package.json"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:CharlesStover/delimiter",
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build",
+    "test": "mocha --require jsdom-global/register ./tests/delimiter.spec.js"
+  },
+  "types": "./index.d.ts",
+  "dependencies": { },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.54",
@@ -13,13 +36,5 @@
     "mocha": "^5.2.0",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
-  },
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "https://github.com/CharlesStover/delimiter.git",
-  "scripts": {
-    "build": "webpack",
-    "prepublishOnly": "npm run build",
-    "test": "mocha --require jsdom-global/register ./tests/delimiter.spec.js"
   }
 }

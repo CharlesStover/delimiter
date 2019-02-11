@@ -1,10 +1,10 @@
 {
   "name": "delimiter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Charles Stover <delimiter@charlesstover.com>",
   "bugs": {
     "email" : "delimiter@charlesstover.com",
-    "url" : "https://github.com/CharlesStover/delimiter/issues"
+    "url": "https://github.com/CharlesStover/delimiter/issues"
   },
   "description": "Places delimiters between items in an array.",
   "directories": {
@@ -16,6 +16,7 @@
     "index.js",
     "package.json"
   ],
+  "homepage": "https://github.com/CharlesStover/delimiter#readme",
   "license": "MIT",
   "main": "index.js",
   "repository": "github:CharlesStover/delimiter",
